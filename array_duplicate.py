@@ -15,7 +15,7 @@ Return k.
 # Similar questions
 # Sum of distances: find the and sort the differences 
 
-def Solution(self, nums) -> int:
+def Solution( nums) -> int:
     j = 1
     for i in range(1, len(nums)):
         if nums[i] != nums[i - 1]:
@@ -23,5 +23,5 @@ def Solution(self, nums) -> int:
             j += 1
         
     return j
-
-Solution(1,1,2)
+test = [1,2,2]
+print(Solution(test))
