@@ -11,7 +11,7 @@ Problem: Given an integer array `nums` and integer `val`,
 """
 
 # 1. Intialize `k` to 0
-# use a loop to iterate through `nums`  using the index: bcos u dont kow the size
+# use a loop to iterate through `nums`  using the index: bcos u dont know the size
 # inside the loop use a condition to check for `val` 
 # if element is not equal to val, assign/append to `k` list and increment by 1
 # return `k` list after completing loop 
